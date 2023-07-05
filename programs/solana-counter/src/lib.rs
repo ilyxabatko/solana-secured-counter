@@ -79,7 +79,7 @@ pub struct SetData<'info> {
     // varifiaction structure to check if PDA is valid
     #[account(
         mut, 
-        seeds = [b"counter", authority.key().as_ref()], 
+        seeds = [b"counter".as_ref(), authority.key().as_ref()], 
         bump = counter_acc.bump,
         owner = id(),
         constraint = counter_acc.authority == authority.key()

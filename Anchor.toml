@@ -4,11 +4,14 @@ skip-lint = false
 [programs.localnet]
 solana_counter = "CEw2ET86pVmsXEg4rAUWR8QdHX2Meh7WuYtnoKmdpLSB"
 
+[programs.devnet]
+solana_counter = "CEw2ET86pVmsXEg4rAUWR8QdHX2Meh7WuYtnoKmdpLSB"
+
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/Users/elijah/solanaDevCourse/solana-movie-frontend/SDCcPraNtvK4XPk5XASqYExWyEPrH9YAnEwm6Hcuz3U.json"
 
 [scripts]

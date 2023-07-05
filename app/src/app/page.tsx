@@ -3,7 +3,7 @@
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import * as anchor from "@project-serum/anchor";
 import idl from "@/idl/solana_counter.json";
-import { SolanaCounter } from "../../../target/types/solana_counter";
+import { SolanaCounter } from "@/types/solana_counter";
 import useIsMounted from '@/utils/Mount';
 import { useAnchorWallet, useConnection } from "@solana/wallet-adapter-react";
 import { useEffect, useState } from "react";
